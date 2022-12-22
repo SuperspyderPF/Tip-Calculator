@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import LIST from './components/list'
+import Tip from './components/tip'
+import UAZ from './components/iz';
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Tip></Tip>
+    <LIST></LIST>
+    <creepsN></creepsN>
+    <UAZ></UAZ>
+    
+    </>
+    
+  )
 }
 
 export default App;
